@@ -25,9 +25,9 @@ Search = React.createClass({
 
   render: function () {
     var styles = {
-      fontSize: '1.0em',
+      fontSize: '1.5em',
       width: '90%',
-      maxWidth: '300px'
+      maxWidth: '350px'
     }
 
     return (
@@ -35,7 +35,7 @@ Search = React.createClass({
         type='text'
         onChange={this.handleChange}
         onKeyUp={this.handleKeyUp}
-        placeholder='Wpisz coś'
+        placeholder='Tutaj wpisz wyszukiwana frazę'
         style={styles}
         value={this.state.searchTerm}
       />
